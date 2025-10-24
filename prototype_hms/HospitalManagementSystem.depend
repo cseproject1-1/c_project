@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1761276257 source:c:\users\qbits\onedrive\desktop\prototype_hms\appointment.c
+	"hospital.h"
+
+1761274752 c:\users\qbits\onedrive\desktop\prototype_hms\hospital.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1761274878 source:c:\users\qbits\onedrive\desktop\prototype_hms\doctor.c
+	"hospital.h"
+
+1761274901 source:c:\users\qbits\onedrive\desktop\prototype_hms\fileops.c
+	"hospital.h"
+
+1761275888 source:c:\users\qbits\onedrive\desktop\prototype_hms\main.c
+	"hospital.h"
+
+1761274874 source:c:\users\qbits\onedrive\desktop\prototype_hms\patient.c
+	"hospital.h"
+
+1761274741 source:c:\users\qbits\onedrive\desktop\prototype_hms\records.c
+	"hospital.h"
+
+1761274742 source:c:\users\qbits\onedrive\desktop\prototype_hms\reports.c
+	"hospital.h"
+
+1761274904 source:c:\users\qbits\onedrive\desktop\prototype_hms\utils.c
+	"hospital.h"
+
