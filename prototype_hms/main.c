@@ -58,10 +58,32 @@ int main() {
     }
     // Main menu loop
     do {
-        printf("\n====================================\n");
-        printf("|            MAIN MENU             |\n");
-        printf("====================================\n");
-        printf("\n");
+       char s[]="\n|            MAIN MENU             |\n";
+    for (int i=1;s[i]!='\0';i++)
+    {
+        printf("-");
+         for (long long j=1;j<=40000000;j++)
+        {
+        }
+    }
+
+    for(int i=0;s[i]!='\0';i++)
+    {
+        printf("%c",s[i]);
+
+
+        for (long long j=0;j<=100000000;j++)
+        {
+        }
+
+    }
+    for (int i=1;s[i]!='\0';i++)
+    {
+        printf("-");
+         for (long long j=1;j<=40000000;j++)
+        {
+        }
+    }  printf("\n");
         printf("1. Patient Management\n");
         printf("2. Doctor Management\n");
         printf("3. Appointment Management\n");
