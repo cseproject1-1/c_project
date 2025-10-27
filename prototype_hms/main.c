@@ -27,15 +27,35 @@ int main() {
     loadRecords();
     
     // Display welcome banner
-    printf("\n");
-    printf("==============================================\n");
-    printf("|                                              |\n");
-    printf("|       HOSPITAL MANAGEMENT SYSTEM - HMS v1.0  |\n");
-    printf("|                                              |\n");
-    printf("|           Welcome to Digital Healthcare      |\n");
-    printf("|                                              |\n");
-    printf("==============================================\n");
-    
+      char s[]="\n| Hospital management System |\n";
+    for (int i=1;s[i]!='\0';i++)
+    {
+        printf("-");
+         for (long long j=0;j<=40000000;j++)
+        {
+
+        }
+    }
+
+    for(int i=0;s[i]!='\0';i++)
+    {
+        printf("%c",s[i]);
+
+
+        for (long long j=0;j<=100000000;j++)
+        {
+
+        }
+
+    }
+    for (int i=1;s[i]!='\0';i++)
+    {
+        printf("-");
+         for (long long j=0;j<=40000000;j++)
+        {
+
+        }
+    }
     // Main menu loop
     do {
         printf("\n====================================\n");
